@@ -3,7 +3,7 @@ class CropController < ApplicationController
   def create
     helper = Inventory::Manager.get_storage_helper
     response = helper.insert(params[:state], params[:dist], params[:mandi], params[:crop], params[:variety], params[:date], params[:price])
-    render :body => response.to_json, :status => 200
+    render :body => success, :status => 200
   end
 
   def get_latest
