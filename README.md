@@ -2,10 +2,11 @@
 This project handles pricing of crops for mandi/markets across India on daily basis.
 
 **Notes**
-1) During implementation did not think about thread safety
-2) Did not wrote testcases as it is in memory preparing testdata and persisting it for multiple testcase was a hard task
-3) To undestand code better go through APIs and librarys
-4) I have used Singleton design pattern at multiple places
+1) Please go throgh **Master** branch
+2) During implementation did not think about thread safety
+3) Did not write testcases as it is in-memory and preparing testdata and persisting it for multiple testcase was a hard task and it required some more effort
+4) To undestand code better go through APIs and librarys
+5) I have used Singleton design pattern at multiple places
 
 
 **Prerequisite**
